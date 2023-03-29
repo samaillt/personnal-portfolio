@@ -1,21 +1,21 @@
 {
     "fr": {
         "lang": "fr",
-        "head_title": "Tom Samaille - Ingénieur créatif",
+        "head_title": "Tom Samaille - Développeur de jeux",
         "meta_author": "Tom Samaille",
         "pages": {
             "home": {
                 "meta_description": "Portfolio de Tom Samaille - Vous trouverez mes réalisations et références. Réalisé avec ThreeJS - WebGl - Node - Express - React - MongoDB",
-                "meta_keywords": "portfolio, projets, développement web, javascript, lumière, vitesse, webgl, three, node, express, react, mongoDB",
+                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, lumière, vitesse, webgl, three, node, express, react, mongoDB",
                 "name": "Accueil",
                 "title": "Tom Samaille",
-                "subtitle": "Étudiant ingénieur créatif",
+                "subtitle": "Développeur de jeux",
                 "click_info": "Cliquez n'importe où pour passer en vitesse lumière",
                 "project_button": "Mes projets"
             },
             "projects": {
                 "meta_description": "Portfolio de Tom Samaille - Réalisations et références.",
-                "meta_keywords": "portfolio, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références",
+                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références",
                 "back" : "Retour",
                 "name": "Projets",
                 "page_title_outline": "Mes ",
@@ -25,12 +25,49 @@
                         "name": "Jeu vidéo",
                         "elements": {
                             "1": {
+                                "name": "Wild Arena Survivors",
+                                "tools": "C# - Unity - GPP - 3C - ECS - Game feel - Debug",
+                                "desc": {
+                                    "1": "Description officielle : Rejoignez le plus sauvage des Battle Royales ! Choisissez votre Survivant et participez à des batailles intenses jusqu'à 40 sur une même carte. Cherchez de quoi vous renforcer, défendez-vous contre les animaux sauvages de cette île exotique et battez les autres joueurs pour l'emporter !",
+                                    "2": "Missions majoritairement liées au Game Feel (Core experience) et à la Meta : Développement / amélioration / correction et ré-usinage de fonctionnalités Gameplay.",
+                                    "3": "Vous trouverez des informations sur le jeu (et le jeu lui-même : Android & iOS) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/54qbXJP7L5s"
+                                },
+                                "website" : "https://www.ubisoft.com/fr-fr/game/wild-arena-survivors",
+                                "images" : {
+                                    "1" : "/assets/img/was_0.jpg",
+                                    "2" : "/assets/img/was_1.jpg",
+                                    "3" : "/assets/img/was_2.png",
+                                    "4" : "/assets/img/was_3.png",
+                                    "5" : "/assets/img/was_4.png"
+                                }
+                            },
+                            "2": {
+                                "name": "La forêt enchantée",
+                                "tools": "C# - Unity - GPP - GD - 3C - Game feel - IA - Debug - Scrum master - Management",
+                                "desc": {
+                                    "1": "En tant que Scrum Master, mon rôle est de m'assurer du bon déroulement des tâches de chacun. Je suis aussi (et surtout ^^) lead tech & programmeur Gameplay au sein de l'équipe. En gros je m'occupe d'intégrer tous les éléments et d'implémenter les fonctionnalités principales du jeu (Camera, Contrôles, Combat, Génération procédurale, Animations, IA de la bête, etc.). En gros un peu comme un cuisinier, mon rôle et d'assembler tous les ingrédients pour proposer un super plat !",
+                                    "2": "La Forêt Enchantée est un jeu vidéo hybride des genres aventure, survie et puzzle pour PC. Vous incarnez le rôle de l’Apprenti sous la tutelle des Gardiens, protecteurs mythiques de votre village contre la menace surnaturelle de la forêt enchantée. Dans leur enquête, les Gardiens ont disparu. Il revient à vous de poursuivre leur mission et de résoudre l’énigme de la forêt enchantée.",
+                                    "3": "Vous trouverez des informations sur le jeu (et le jeu lui-même : windows & MacOS) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/wjJrLerX3YM"
+                                },
+                                "website" : "https://laforetenchantee.netlify.app/",
+                                "images" : {
+                                    "1" : "/assets/img/foret_enchantee_3.jpg",
+                                    "2" : "/assets/img/foret_enchantee_2.jpg"
+                                }
+                            },
+                            "3": {
                                 "name": "Prototype de RPG open world",
                                 "tools": "C# - Unity",
                                 "desc": {
                                     "1": "Conception et programmation d’un prototype de jeu vidéo en équipe. Il s’agit d’un projet toujours en cours de production, qui résultera au bout de deux ans de production en un jeu vidéo du type Role Play Game en Open World.",
                                     "2": "J’ai pu participer, tout au long du projet, aux phases d’idéation, de conception et, bien évidemment, de production. J’ai notamment développé les mouvements, la gestion de la caméra, le système de combat et de nombreux éléments de Gameplay qui permettent au joueur de vivre une expérience fluide, dynamique, évolutive et unique.",
-                                    "3": "Vous pouvez télécharger l'éxécutable du prototype de jeu en cliquant sur le lien ci-dessus (windows uniquement)."
+                                    "3": "Vous pouvez télécharger l'éxécutable du prototype de jeu (windows uniquement) en cliquant sur le lien ci-dessus (Icône de PC)."
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/6QLEbIydIwY"
@@ -42,7 +79,7 @@
                                     "3" : "/assets/img/proto_screen_2.jpg"
                                 }
                             },
-                            "2": {
+                            "4": {
                                 
                                 "name": "Tron'ple run - Jeu 3D",
                                 "tools": "C++ - OpenGL",
@@ -59,7 +96,7 @@
                                     "1" : "/assets/img/tronplerun_1.jpg"
                                 }
                             },
-                            "3": {
+                            "5": {
                                 
                                 "name": "Flapimac - Jeu 2D",
                                 "tools": "C - OpenGL",
@@ -75,7 +112,7 @@
                                     "1" : "/assets/img/flapimac_1.jpg"
                                 }
                             },
-                            "4": {
+                            "6": {
                                 "name": "Expérimentations de Gameplay",
                                 "tools": "C# - Unity",
                                 "desc": {
@@ -91,7 +128,7 @@
                                     "1" : "/assets/img/experimentations_1.jpg"
                                 }
                             },
-                            "5": {
+                            "7": {
                                 "name": "Tower defense - Jeu de plateau",
                                 "tools": "C",
                                 "desc": {
@@ -258,19 +295,19 @@
             },
             "about": {
                 "meta_description": "Portfolio de Tom Samaille - À propos de moi, description et contacts.",
-                "meta_keywords": "portfolio, projets, développement web, jeu vidéo, gameplay, programmer, 3D, contact",
+                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références, contact",
                 "name": "À propos",
                 "page_title_outline": "À ",
                 "page_title_strong": "propos",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hello ! Je suis un étudiant ingénieur créatif de 22 ans. Passionné par le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D), je cherche aujourd’hui un stage de fin d’études dans l’un de ces domaines.",
+                    "1": "Hello ! Je suis un programmeur Gameplay de 25 ans chez Ubisoft Paris et passionné par le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
                     "2": "N’hésitez pas à me contacter pour toute information !"
                 },
-                "address": "3 Rue Benoit Bernard, 69008 Lyon",
+                "address": "Entre la France & le Québec",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
-                "copyright": "Copyright 2020 - Tom Samaille - All rights reserved"
+                "copyright": "Copyright 2021 - Tom Samaille - All rights reserved"
             }
         }
     },
@@ -280,20 +317,20 @@
         "meta_description": "Temporary portfolio made with Three - WebGl - Node - React",
         "meta_keywords": "webgl, three.js, lights, speed, portfolio, projects, web development, javascript",
         "meta_author": "Tom Samaille",
-        "copyright": "Copyright 2020 - Tom Samaille - All rights reserved",
+        "copyright": "Copyright 2021 - Tom Samaille - All rights reserved",
         "pages": {
             "home": {
                 "meta_description": "Tom Samaille's website - You will find some of my projects & references. Made with ThreeJS - WebGl - Node - Express - React - MongoDB",
-                "meta_keywords": "portfolio, projects, web development, javascript, light, speed, lightspeed, webgl, three, node, express, react, mongoDB",
+                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, development, projects, web development, javascript, light, speed, lightspeed, webgl, three, node, express, react, mongoDB",
                 "name": "Home",
                 "title": "Tom Samaille",
-                "subtitle": "Creative Engineer",
+                "subtitle": "Game developer",
                 "click_info": "Click anywhere for lightspeed",
                 "project_button": "My projects"
             },
             "projects": {
                 "meta_description": "Tom Samaille's website - Projects and references.",
-                "meta_keywords": "portfolio, projects, web development, javascript, game, software, references, 3d",
+                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, developpment, projects, web development, javascript, game, software, references, 3d",
                 "back" : "Back",
                 "name": "Projects",
                 "page_title_outline": "My ",
@@ -303,12 +340,49 @@
                         "name": "Video game",
                         "elements": {
                             "1": {
+                                "name": "Wild Arena Survivors",
+                                "tools": "C# - Unity - GPP - 3C - ECS - Game feel - Debug",
+                                "desc": {
+                                    "1": "Official description : Join the wildest battle royale! Choose your Survivor to fight in fast-paced battles with 40 players on one map! Explore an exotic island for resources to make you stronger, defend yourself against wild animals and fight other players to win!",
+                                    "2": "My missions were mostly about Game Feel (Core experience) and meta : Development / improvement / debug or refacto of Gameplay features (according to the evolutive design pattern / architecture during the project) .",
+                                    "3": "Please find informations about the game (and game itself : Android & iOS) by clicking on the link above (Desktop icon)."
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/54qbXJP7L5s"
+                                },
+                                "website" : "https://www.ubisoft.com/en-gb/game/wild-arena-survivors",
+                                "images" : {
+                                    "1" : "/assets/img/was_0.jpg",
+                                    "2" : "/assets/img/was_1.jpg",
+                                    "3" : "/assets/img/was_2.png",
+                                    "4" : "/assets/img/was_3.png",
+                                    "5" : "/assets/img/was_4.png"
+                                }
+                            },
+                            "2": {
+                                "name": "La forêt enchantée",
+                                "tools": "C# - Unity - GPP - GD - 3C - Game feel - IA - Debug - Scrum master - Management",
+                                "desc": {
+                                    "1": "As Scrum master, I had to ensure the proper life cycle of every single task from each sprints (from attribution to estimation, development, review & debug). Within the team, I am also Lead Tech & Gameplay Programmer. Basically I'm in charge of the integration of every game elements and also the implementation of every Gameplay feature (Camera, Controls, Fight, Procedural generation, Animations, Beast IA, etc.). Like a cook, I put together all the ingredients to offer the best possible meal !",
+                                    "2": "La Forêt Enchantée is an hybrid RBG between Survival & Puzzle game. You will be the Guardian apprentice, who are the protectors of you village against the mysterious threat living in the forest. Guardians disapeared while investigating these mysteries. You now have the responsability to fulfill their past purpose and resolve the forest enigma.",
+                                    "3": "Please find informations about the game (and game itself : windows & MacOS) by clicking on the link above (Desktop icon)."
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/wjJrLerX3YM"
+                                },
+                                "website" : "https://laforetenchantee.netlify.app/",
+                                "images" : {
+                                    "1" : "/assets/img/foret_enchantee_3.jpg",
+                                    "2" : "/assets/img/foret_enchantee_2.jpg"
+                                }
+                            },
+                            "3": {
                                 "name": "RPG open world prototype",
                                 "tools": "C# - Unity",
                                 "desc": {
                                     "1": "Design and programming of a video game. This project still in its production phase and will result after a two years into a Role Play Game Open World video game.",
                                     "2": "Throughout the whole project, I participate in the ideation, design and, of course, production phases. I developed for example mouvements and camera management, combat system many Gameplay features that allow the player to experiment a fluid, dynamic and unique experience.",
-                                    "3": "You can download the game prototype by clicking on the link above (windows only)."
+                                    "3": "You can download the game prototype (windows only) by clicking on the link above (Desktop icon)."
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/6QLEbIydIwY"
@@ -320,7 +394,7 @@
                                     "3" : "/assets/img/proto_screen_2.jpg"
                                 }
                             },
-                            "2": {
+                            "4": {
                                 
                                 "name": "Tron'ple run - 3d Game",
                                 "tools": "C++ - OpenGL",
@@ -337,7 +411,7 @@
                                     "1" : "/assets/img/tronplerun_1.jpg"
                                 }
                             },
-                            "3": {
+                            "5": {
                                 
                                 "name": "Flapimac - 2D Game",
                                 "tools": "C - OpenGL",
@@ -353,7 +427,7 @@
                                     "1" : "/assets/img/flapimac_1.jpg"
                                 }
                             },
-                            "4": {
+                            "6": {
                                 "name": "Gameplay experimentations",
                                 "tools": "C# - Unity",
                                 "desc": {
@@ -369,7 +443,7 @@
                                     "1" : "/assets/img/experimentations_1.jpg"
                                 }
                             },
-                            "5": {
+                            "7": {
                                 "name": "Tower defense - Board game",
                                 "tools": "C",
                                 "desc": {
@@ -535,19 +609,19 @@
             },
             "about": {
                 "meta_description": "Tom Samaille's website - About me, description and contact informations.",
-                "meta_keywords": "portfolio, projects, web development, game, gameplay, programmer, 3D, contact, informations",
+                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, development, projects, web development, game, gameplay, programmer, 3D, contact, informations",
                 "name": "About",
                 "page_title_outline": "About ",
                 "page_title_strong": "me",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hi ! I'm a French 22 years old creative engineer. I'm a video game programmer (3D engine & Gameplay) and also a software & web developper and I'm looking forward to work as an intern in one of these branches.",
+                    "1": "Hi ! I'm a French 25 years old Gameplay Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay) and also software & web development.",
                     "2": "Let's get in touch !"
                 },
-                "address": "3 Rue Benoit Bernard, 69008 Lyon, France",
+                "address": "Between France & Québec",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
-                "copyright": "Copyright 2020 - Tom Samaille - All rights reserved"
+                "copyright": "Copyright 2021 - Tom Samaille - All rights reserved"
             }
         }
     }
