@@ -1,5 +1,16 @@
 var React = require('react');
 
+function calculateAge(birthDate) {
+  const today = new Date();
+  const birth = new Date(birthDate);
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDifference = today.getMonth() - birth.getMonth();
+  if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  return age;
+}
+
 class About extends React.Component {
   constructor(props) {
     super(props)
@@ -8,11 +19,16 @@ class About extends React.Component {
   render() {
     var data = this.props;
     var descContent = [];
+
+    const age = calculateAge("1997-11-25");
     for (const key of Object.keys(data.desc)) {
+      var keyContent = data.desc[key]
+      var updatedKeyContent = keyContent.replace('$AGE', age)
+
       if (Object.keys(data.desc).indexOf(key) != Object.keys(data.desc).length - 1) {
-        descContent.push(<React.Fragment key={"desc"+key}>{data.desc[key]}<br/><br/></React.Fragment>);
+        descContent.push(<React.Fragment key={"desc"+key}>{updatedKeyContent}<br/><br/></React.Fragment>);
       } else {
-        descContent.push(<React.Fragment key={"desc"+key}>{data.desc[key]}</React.Fragment>);
+        descContent.push(<React.Fragment key={"desc"+key}>{updatedKeyContent}</React.Fragment>);
       }
     }
 

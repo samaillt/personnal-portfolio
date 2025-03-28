@@ -301,7 +301,7 @@
                 "page_title_strong": "propos",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hello ! Je suis un programmeur Gameplay de 25 ans chez Ubisoft Paris et passionné par le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
+                    "1": "Hello ! Je suis un programmeur Gameplay de $AGE ans chez Ubisoft Paris et passionné par le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
                     "2": "N’hésitez pas à me contacter pour toute information !"
                 },
                 "address": "Entre la France & le Québec",
@@ -615,7 +615,7 @@
                 "page_title_strong": "me",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hi ! I'm a French 25 years old Gameplay Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay) and also software & web development.",
+                    "1": "Hi ! I'm a French $AGE years old Gameplay Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay) and also software & web development.",
                     "2": "Let's get in touch !"
                 },
                 "address": "Between France & Québec",
