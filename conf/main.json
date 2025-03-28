@@ -307,7 +307,7 @@
                 "address": "Entre la France & le Québec",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
-                "copyright": "Copyright 2021 - Tom Samaille - All rights reserved"
+                "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"
             }
         }
     },
@@ -317,7 +317,7 @@
         "meta_description": "Temporary portfolio made with Three - WebGl - Node - React",
         "meta_keywords": "webgl, three.js, lights, speed, portfolio, projects, web development, javascript",
         "meta_author": "Tom Samaille",
-        "copyright": "Copyright 2021 - Tom Samaille - All rights reserved",
+        "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved",
         "pages": {
             "home": {
                 "meta_description": "Tom Samaille's website - You will find some of my projects & references. Made with ThreeJS - WebGl - Node - Express - React - MongoDB",
@@ -621,7 +621,7 @@
                 "address": "Between France & Québec",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
-                "copyright": "Copyright 2021 - Tom Samaille - All rights reserved"
+                "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"
             }
         }
     }

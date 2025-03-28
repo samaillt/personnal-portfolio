@@ -34,7 +34,7 @@ class Menu extends React.Component {
                     <a href="https://www.instagram.com/tom_samaille/" target="_blank"><i className="fab fa-instagram"></i></a>
                     <a href="https://www.behance.net/tomsamaille" target="_blank"><i className="fab fa-behance"></i></a>
                 </div>
-                <p id="menu_copyright">{data.pages.about.copyright}</p>
+                <p id="menu_copyright">{data.pages.about.copyright.replace('$YEAR', new Date().getFullYear())}</p>
             </div>
         </div>
         );
