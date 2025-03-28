@@ -6,16 +6,16 @@
         "pages": {
             "home": {
                 "meta_description": "Portfolio de Tom Samaille - Vous trouverez mes réalisations et références. Réalisé avec ThreeJS - WebGl - Node - Express - React - MongoDB",
-                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, lumière, vitesse, webgl, three, node, express, react, mongoDB",
+                "meta_keywords": "portfolio, ingénieur, créatif, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, lumière, vitesse, webgl, three, node, express, react, mongoDB",
                 "name": "Accueil",
                 "title": "Tom Samaille",
-                "subtitle": "Développeur de jeux",
+                "subtitle": "Ingénieur créatif",
                 "click_info": "Cliquez n'importe où pour passer en vitesse lumière",
                 "project_button": "Mes projets"
             },
             "projects": {
                 "meta_description": "Portfolio de Tom Samaille - Réalisations et références.",
-                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références",
+                "meta_keywords": "portfolio, ingénieur, créatif, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références",
                 "back" : "Retour",
                 "name": "Projets",
                 "page_title_outline": "Mes ",
@@ -295,13 +295,13 @@
             },
             "about": {
                 "meta_description": "Portfolio de Tom Samaille - À propos de moi, description et contacts.",
-                "meta_keywords": "portfolio, gameplay, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références, contact",
+                "meta_keywords": "portfolio, ingénieur, créatif, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références, contact",
                 "name": "À propos",
                 "page_title_outline": "À ",
                 "page_title_strong": "propos",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hello ! Je suis un programmeur Gameplay de $AGE ans chez Ubisoft Paris et passionné par le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
+                    "1": "Hello ! Je suis un programmeur Online de $AGE ans chez Ubisoft Paris et passionné par l'infrastructure, le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
                     "2": "N’hésitez pas à me contacter pour toute information !"
                 },
                 "address": "Entre la France & le Québec",
@@ -321,16 +321,16 @@
         "pages": {
             "home": {
                 "meta_description": "Tom Samaille's website - You will find some of my projects & references. Made with ThreeJS - WebGl - Node - Express - React - MongoDB",
-                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, development, projects, web development, javascript, light, speed, lightspeed, webgl, three, node, express, react, mongoDB",
+                "meta_keywords": "portfolio, creative, engineer, programmer, developer, video game, development, projects, web development, javascript, light, speed, lightspeed, webgl, three, node, express, react, mongoDB",
                 "name": "Home",
                 "title": "Tom Samaille",
-                "subtitle": "Game developer",
+                "subtitle": "Creative engineer",
                 "click_info": "Click anywhere for lightspeed",
                 "project_button": "My projects"
             },
             "projects": {
                 "meta_description": "Tom Samaille's website - Projects and references.",
-                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, developpment, projects, web development, javascript, game, software, references, 3d",
+                "meta_keywords": "portfolio, creative, engineer, programmer, developer, video game, developpment, projects, web development, javascript, game, software, references, 3d",
                 "back" : "Back",
                 "name": "Projects",
                 "page_title_outline": "My ",
@@ -401,7 +401,7 @@
                                 "desc": {
                                     "1": "It's inspired by the famous game Temple Run as well as the Tron universe and developed with C++ and Opengl3. It was interesting to use the mathematical knowledge related to 3D that I acquired during my trainings allowing the production of this game.",
                                     "2": "It helped me understand the whole development of a video game, from the graphical part with 3D programming to the user experience with Gameplay programming.",
-                                    "3": "It was a particularly complete and interesting project that allowed me to develop strong C++ skills. I also developed my 'engine' programming skills under openGL, with the rigour and the need of optimization that it implies."
+                                    "3": "It was a particularly complete and interesting project that allowed me to develop strong C++ skills. I also developed my engine programming skills under openGL, with the rigour and the need of optimization that it implies."
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/CPb91tXP71g"
@@ -448,7 +448,7 @@
                                 "tools": "C",
                                 "desc": {
                                     "1": "It's a board 'tower defense' like game.",
-                                    "2": "This project allowed me to deeply develop my Gameplay programming and c skills."
+                                    "2": "This project allowed me to deeply develop my programming and c skills."
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/H6Bl_XKkYX8"
@@ -609,13 +609,13 @@
             },
             "about": {
                 "meta_description": "Tom Samaille's website - About me, description and contact informations.",
-                "meta_keywords": "portfolio, gameplay, programmer, developer, video game, development, projects, web development, game, gameplay, programmer, 3D, contact, informations",
+                "meta_keywords": "portfolio, creative, engineer, programmer, developer, video game, development, projects, web development, game, creative, engineer, programmer, 3D, contact, informations",
                 "name": "About",
                 "page_title_outline": "About ",
                 "page_title_strong": "me",
                 "photo": "/assets/img/profil_carree.jpg",
                 "desc": {
-                    "1": "Hi ! I'm a French $AGE years old Gameplay Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay) and also software & web development.",
+                    "1": "Hi ! I'm a French $AGE years old Online Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay), infrastructure and also software & web development.",
                     "2": "Let's get in touch !"
                 },
                 "address": "Between France & Québec",
