@@ -11,31 +11,84 @@
                 "title": "Tom Samaille",
                 "subtitle": "Ingénieur créatif",
                 "click_info": "Cliquez n'importe où pour passer en vitesse lumière",
-                "project_button": "Mes projets"
+                "project_button": "Quelques projets"
             },
             "projects": {
                 "meta_description": "Portfolio de Tom Samaille - Réalisations et références.",
                 "meta_keywords": "portfolio, ingénieur, créatif, programmeur, développeur, jeux vidéo, développement, projets, développement web, javascript, jeu vidéo, logiciel, divers, réalisations, références",
                 "back" : "Retour",
                 "name": "Projets",
-                "page_title_outline": "Mes ",
+                "page_title_outline": "Quelques ",
                 "page_title_strong": "projets",
                 "categories": {
                     "games": {
                         "name": "Jeu vidéo",
                         "elements": {
                             "1": {
-                                "name": "Wild Arena Survivors",
-                                "tools": "C# - Unity - GPP - 3C - ECS - Game feel - Debug",
+                                "name": "Bump! Superbrawl",
+                                "tools": "C# - Online programming - Infrastructure & DevOps",
                                 "desc": {
-                                    "1": "Description officielle : Rejoignez le plus sauvage des Battle Royales ! Choisissez votre Survivant et participez à des batailles intenses jusqu'à 40 sur une même carte. Cherchez de quoi vous renforcer, défendez-vous contre les animaux sauvages de cette île exotique et battez les autres joueurs pour l'emporter !",
-                                    "2": "Missions majoritairement liées au Game Feel (Core experience) et à la Meta : Développement / amélioration / correction et ré-usinage de fonctionnalités Gameplay.",
-                                    "3": "Vous trouverez des informations sur le jeu (et le jeu lui-même : Android & iOS) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                    "1": {
+                                        "1": "Il 's'agit du projet le plus ambitieux sur lequel j'ai eu l'opportunité de travailler : un jeu de stratégie tour par tour en 1v1 où l'anticipation et une préparation minutieuse sont les clés pour prendre le dessus sur votre adversaire."
+                                    },
+                                    "2": {
+                                        "1": "Maintenance de l’infrastructure serveur au travers du principe d’Infrastructure As Code et de nos outils d’intégration et de déploiements continus :",
+                                        "2": "- 50+ membres d’équipe",
+                                        "3": "- 100+ pays",
+                                        "4": "- 4,8/5 iOS, 9/10 Steam, 4,5/5 Google Play Store"
+                                    },
+                                    "3": {
+                                        "1": "Conception, développement et maintenance de services en ligne basés sur une architecture micro-services, avec un objectif de réutilisation future :",
+                                        "2": "- Service de social (relations d’amis, matchs amicaux)",
+                                        "3": "- Service de boutique (catalogue d’achat, intégration des services tiers Google Play Store & iOS, gestion des transactions, tenue d’un livre des comptes)",
+                                        "4": "- Framework de de planification",
+                                        "5": "- Service de classement (gestion de la progression compétitive des joueurs, classement saisonnier, récompenses)",
+                                        "6": "- Service d’évènements in-game (framework modulaire pour différents types d’évènements : communautaire, compétitif et progression)",
+                                        "7": "- Service de triche (outils de test pour le développement non disponible en production)",
+                                        "8": "- Service de matchmaking (mise en relation des joueurs selon les règles de design et création de matchs)",
+                                        "9": "- Framework de migration de base de données Redis"
+                                    },
+                                    "4": { 
+                                        "1": "Vous trouverez des informations sur le jeu (et le jeu lui-même : Android, iOS & PC) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                    },
+                                    "5": {
+                                        "1": "Notions principales : C#, Kubernetes, Terraform, AWS, CI/CD (Gitlab & TeamCity), Tests d’intégration et unitaires (MSTests, xUnit & nUnit), Monitoring (Grafana & Sentry), Administration de base de données (MongoDB & Redis), Clean code, API REST, Client <-> serveur, JWT, Multi-threading, Programmation asynchrone et réactive, Jira, Windows VS"
+                                    }
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/pgXSZHYJWpA?si=3Ho6cBUCXNeVd3St"
+                                },
+                                "website" : "https://www.bump-mob.ubi.com/game/referral/4-6VP5DVRQ",
+                                "images" : {
+                                    "1" : "/assets/img/bump_0.jpg",
+                                    "2" : "/assets/img/bump_1.jpg",
+                                    "3" : "/assets/img/bump_2.jpg",
+                                    "4" : "/assets/img/bump_3.jpg"
+                                }
+                            },
+                            "2": {
+                                "name": "Wild Arena Survivors",
+                                "tools": "C# - Gameplay programming - Unity - 3C - ECS - Game feel - Debug",
+                                "desc": {
+                                    "1": {
+                                        "1": "Description officielle : Rejoignez le plus sauvage des Battle Royales ! Choisissez votre Survivant et participez à des batailles intenses jusqu'à 40 sur une même carte. Cherchez de quoi vous renforcer, défendez-vous contre les animaux sauvages de cette île exotique et battez les autres joueurs pour l'emporter !"
+                                    },
+                                    "2": {
+                                        "1": "Missions majoritairement liées au Game Feel (core experience) et à la Meta :",
+                                        "2": "- Développement et adaptation des fonctionnalités, des outils et des contrôles",
+                                        "3": "- Intégration des assets graphiques et sonores",
+                                        "4": "- Analyse, estimation et force de proposition concernant les différentes fonctionnalités a intégrer",
+                                        "5": "- Veille sur les avancées technologiques li¢es au développement mobile (notamment gameplay) et développement de ses connaissances du marché",
+                                        "6": "- Participation active au débogage du projet aux différentes étapes",
+                                        "7": "- Développement des fonctionnalités de gameplay et conception de prototypes innovants afin d’assurer ainsi la finalisation des jeux-vidéo et contenus additionnels"
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : C#, ECS, Unity, Jira, Windows VS, CI/CD (Gitlab & Jenkins), Tests d’intégration et unitaires (MSTests), Administration de base de données (MongoDB), Clean code, API REST, Client <-> serveur, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/54qbXJP7L5s"
                                 },
-                                "website" : "https://www.ubisoft.com/fr-fr/game/wild-arena-survivors",
                                 "images" : {
                                     "1" : "/assets/img/was_0.jpg",
                                     "2" : "/assets/img/was_1.jpg",
@@ -44,13 +97,22 @@
                                     "5" : "/assets/img/was_4.png"
                                 }
                             },
-                            "2": {
+                            "3": {
                                 "name": "La forêt enchantée",
-                                "tools": "C# - Unity - GPP - GD - 3C - Game feel - IA - Debug - Scrum master - Management",
+                                "tools": "C# - Gameplay programming - Unity - 3C - Game feel - IA - Debug - Management",
                                 "desc": {
-                                    "1": "En tant que Scrum Master, mon rôle est de m'assurer du bon déroulement des tâches de chacun. Je suis aussi (et surtout ^^) lead tech & programmeur Gameplay au sein de l'équipe. En gros je m'occupe d'intégrer tous les éléments et d'implémenter les fonctionnalités principales du jeu (Camera, Contrôles, Combat, Génération procédurale, Animations, IA de la bête, etc.). En gros un peu comme un cuisinier, mon rôle et d'assembler tous les ingrédients pour proposer un super plat !",
-                                    "2": "La Forêt Enchantée est un jeu vidéo hybride des genres aventure, survie et puzzle pour PC. Vous incarnez le rôle de l’Apprenti sous la tutelle des Gardiens, protecteurs mythiques de votre village contre la menace surnaturelle de la forêt enchantée. Dans leur enquête, les Gardiens ont disparu. Il revient à vous de poursuivre leur mission et de résoudre l’énigme de la forêt enchantée.",
-                                    "3": "Vous trouverez des informations sur le jeu (et le jeu lui-même : windows & MacOS) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                    "1": {
+                                        "1": "La Forêt Enchantée est un jeu vidéo hybride des genres aventure, survie et puzzle pour PC. Vous incarnez le rôle de l’Apprenti sous la tutelle des Gardiens, protecteurs mythiques de votre village contre la menace surnaturelle de la forêt enchantée. Dans leur enquête, les Gardiens ont disparu. Il revient à vous de poursuivre leur mission et de résoudre l’énigme de la forêt enchantée."
+                                    },
+                                    "2": {
+                                        "1": "J'ai occupé les rôles de scrum master (assurer du bon déroulement des tâches de chacun) et surtout de lead tech / leag Gameplay programmer au sein de l'équipe (intégrer tous les éléments et d'implémenter les fonctionnalités principales du jeu (Camera, Contrôles, Combat, Génération procédurale, Animations, IA de la bête, etc.)"
+                                    },
+                                    "3": {
+                                        "1": "Vous trouverez des informations sur le jeu (et le jeu lui-même : windows & MacOS) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : C#, Management, 3C, Unity, Windows VS, CI/CD (Gitlab), Tests d’intégration et unitaires (MSTests), Clean code, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/wjJrLerX3YM"
@@ -61,32 +123,23 @@
                                     "2" : "/assets/img/foret_enchantee_2.jpg"
                                 }
                             },
-                            "3": {
-                                "name": "Prototype de RPG open world",
-                                "tools": "C# - Unity",
-                                "desc": {
-                                    "1": "Conception et programmation d’un prototype de jeu vidéo en équipe. Il s’agit d’un projet toujours en cours de production, qui résultera au bout de deux ans de production en un jeu vidéo du type Role Play Game en Open World.",
-                                    "2": "J’ai pu participer, tout au long du projet, aux phases d’idéation, de conception et, bien évidemment, de production. J’ai notamment développé les mouvements, la gestion de la caméra, le système de combat et de nombreux éléments de Gameplay qui permettent au joueur de vivre une expérience fluide, dynamique, évolutive et unique.",
-                                    "3": "Vous pouvez télécharger l'éxécutable du prototype de jeu (windows uniquement) en cliquant sur le lien ci-dessus (Icône de PC)."
-                                },
-                                "videos": {
-                                    "1" : "https://www.youtube.com/embed/6QLEbIydIwY"
-                                },
-                                "website" : "https://drive.google.com/open?id=13OxLrKXPluHN26gr1tB_xvKJC6jDHNBC",
-                                "images" : {
-                                    "1" : "/assets/img/capture_prototype_1.jpg",
-                                    "2" : "/assets/img/proto_screen_1.jpg",
-                                    "3" : "/assets/img/proto_screen_2.jpg"
-                                }
-                            },
                             "4": {
                                 
                                 "name": "Tron'ple run - Jeu 3D",
-                                "tools": "C++ - OpenGL",
+                                "tools": "C++ - Engine programming - Gameplay programming - OpenGL",
                                 "desc": {
-                                    "1": "Jeu inspiré du célèbre jeu Temple Run dans l'univers de Tron réalisé en C++ et OpenGL3. Il a été intéressant d'appliquer les connaissances mathématiques liées à la 3D que j'ai acquises en les mettant au profit de la production de ce jeu.",
-                                    "2": "Il m'a notamment permis de me familiariser avec le développement d'un jeu vidéo sous toutes ses formes, de l'aspect graphique par la programmation 3D à l'aspect ludique par la programmation Gameplay.",
-                                    "3": "C'était un travail particulierement complet et enrichissant qui m'a notamment permis de développer de solides compétences en C++. J'ai aussi pu développer mes compétences de programmation 'engine' sous openGL, avec la rigueur et la nécessité de prendre en compte l'optimisation qu'elle suppose."
+                                    "1": {
+                                        "1": "Jeu inspiré du célèbre jeu Temple Run dans l'univers de Tron réalisé en C++ et OpenGL3. Il a été intéressant d'appliquer les connaissances mathématiques liées à la 3D que j'ai acquises en les mettant au profit de la production de ce jeu."
+                                    },
+                                    "2": {
+                                        "1": "Il m'a notamment permis de me familiariser avec le développement d'un jeu vidéo sous toutes ses formes, de l'aspect graphique par la programmation 3D à l'aspect ludique par la programmation Gameplay."
+                                    },
+                                    "3": {
+                                        "1": "C'était un travail particulierement complet et enrichissant qui m'a notamment permis de développer de solides compétences en C++. J'ai aussi pu développer mes compétences de programmation 'engine' sous openGL, avec la rigueur et la nécessité de prendre en compte l'optimisation qu'elle suppose."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : C++, OpenGL, Windows VS code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/CPb91tXP71g"
@@ -99,10 +152,17 @@
                             "5": {
                                 
                                 "name": "Flapimac - Jeu 2D",
-                                "tools": "C - OpenGL",
+                                "tools": "C - Engine programming - Gameplay programming - OpenGL",
                                 "desc": {
-                                    "1": "Jeu codé en C réalisé avec OpenGL 2 inspiré des space shooter et du célèbre jeu flappy birds.",
-                                    "2": "Ce projet m'a permis de développer mes compétences en programmation C, programmation Gameplay et programmation 2D."
+                                    "1": {
+                                        "1": "Jeu codé en C réalisé avec OpenGL 2 inspiré des space shooter et du célèbre jeu flappy birds."
+                                    },
+                                    "2": {
+                                        "1": "Ce projet m'a permis de développer mes compétences en programmation C, programmation Gameplay et programmation 2D."
+                                    },
+                                    "3": {
+                                        "1": "Notions principales : C, OpenGL, Windows VS code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/o4CoEI3UxVM"
@@ -114,11 +174,20 @@
                             },
                             "6": {
                                 "name": "Expérimentations de Gameplay",
-                                "tools": "C# - Unity",
+                                "tools": "C# - Gameplay programming - Unity",
                                 "desc": {
-                                    "1": "Conception et programmation d’éléments de Gameplay d’un jeu vidéo. Il s'agissait de produire divertes expérimentations dans le cadre de la création d'un jeu vidéo du type Role Play Game en Open World dans lequel l'accent était mis sur le dynamisme et l'aspect rétro-actif des choix du joueur sur son environnement.",
-                                    "2": "J'ai, par exemple, développé une expérimentation dans laquelle divers éléments de l'environnement (les arbres d'une forêt) s'enflamment au contact du joueur en feu et provoquent une réaction en chaîne",
-                                    "3": "Ces diverses expérimentations étaient souvent des défis techniques. Cela m'a permis de développer mes compétences de programmation Gameplay, C# et Unity."
+                                    "1": {
+                                        "1": "Conception et programmation d’éléments de Gameplay d’un jeu vidéo. Il s'agissait de produire divertes expérimentations dans le cadre de la création d'un jeu vidéo du type Role Play Game en Open World dans lequel l'accent était mis sur le dynamisme et l'aspect rétro-actif des choix du joueur sur son environnement."
+                                    },
+                                    "2": {
+                                        "1": "J'ai, par exemple, développé une expérimentation dans laquelle divers éléments de l'environnement (les arbres d'une forêt) s'enflamment au contact du joueur en feu et provoquent une réaction en chaîne"
+                                    },
+                                    "3": {
+                                        "1": "Ces diverses expérimentations étaient souvent des défis techniques. Cela m'a permis de développer mes compétences de programmation Gameplay, C# et Unity."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : C#, Management, 3C, Unity, Windows VS, Clean code, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/RhqYrUmzur0"
@@ -130,10 +199,17 @@
                             },
                             "7": {
                                 "name": "Tower defense - Jeu de plateau",
-                                "tools": "C",
+                                "tools": "C - Programming",
                                 "desc": {
-                                    "1": "Jeu de plateau du style Tower Defense.",
-                                    "2": "Ce projet m'a permis de développer drastiquement mes compétences en programmation C."
+                                    "1": {
+                                        "1": "Jeu de plateau du style Tower Defense."
+                                    },
+                                    "2": {
+                                        "1": "Ce projet m'a permis de développer drastiquement mes compétences en programmation C."
+                                    },
+                                    "3": {
+                                        "1": "Notions principales : C, Windows VS code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/H6Bl_XKkYX8"
@@ -152,9 +228,18 @@
                                 "name": "IRC 3D - Logiciels pour l'IRCGN",
                                 "tools": "Python - OpenGL - IA - 3D",
                                 "desc": {
-                                    "1": "Il s'agit d'un logiciel permettant la comparaison d'image entre une image de caméra de vidéo-surveillance et un modèle 3D. Le visage et son orientation sont détéctés automatiquement dans l'image et cette orientation est appliquée au modèle 3D pour permettre à l'expert de gendarmerie de comparer les deux.",
-                                    "2": "J'ai réalisé ce logiciel en équipe avec Nicolas Sénecal dans le cadre d'un projet de l'Institut de Recherche Criminelle de la Gendarmerie Nationale.",
-                                    "3": "Ce projet m'a permis de développer mes compétences en programmation Python, de développer une rigueur toute particulière (dans le cadre d'un projet en collaboration avec une institution militaire), mais aussi d'approfondir mes connaissances en intelligence artificielle (IA) et des outils mathématiques qui y sont liés ainsi qu'au traitement d'image."
+                                    "1": {
+                                        "1": "Il s'agit d'un logiciel permettant la comparaison d'image entre une image de caméra de vidéo-surveillance et un modèle 3D. Le visage et son orientation sont détéctés automatiquement dans l'image et cette orientation est appliquée au modèle 3D pour permettre à l'expert de gendarmerie de comparer les deux."
+                                    },
+                                    "2": {
+                                        "1": "J'ai réalisé ce logiciel en équipe avec Nicolas Sénecal dans le cadre d'un projet de l'Institut de Recherche Criminelle de la Gendarmerie Nationale."
+                                    },
+                                    "3": {
+                                        "1": "Ce projet m'a permis de développer mes compétences en programmation Python, de développer une rigueur toute particulière (dans le cadre d'un projet en collaboration avec une institution militaire), mais aussi d'approfondir mes connaissances en intelligence artificielle (IA) et des outils mathématiques qui y sont liés ainsi qu'au traitement d'image."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : Python, OpenGL, IA, 3D, Management, PyCharm, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/cefoxSRm_To"
@@ -174,10 +259,21 @@
                                 "name": "Cognidis - Application web",
                                 "tools": "NodeJS - Express - MongoDB",
                                 "desc": {
-                                    "1": "Cognidis est une start-up Française qui base son activité autour de l’analyse de données, des sciences cognitives et de l’intelligence artificielle. Elle assure la conception d’outils permettant à des grosses entreprises du secteur du tourisme et du transport de comprendre et prédire le comportement de leurs utilisateurs mais aussi d’accéder à des données pertinentes pour gagner en efficacité.",
-                                    "2": "J’ai été chargé de travailler sur l’application principale proposée par Cognidis et de réaliser différentes tâches. J’ai par exemple réalisé une refonte de la page d’accueil et optimisé la gestion de sessions et de connexions sécurisées à l’application.",
-                                    "3": "J’ai développé plusieurs outils web et réalisé diverses tâches d’optimisation, de perfectionnement, de finitions ou d’ajout de fonctionnalités sur l’ensemble de l’application.",
-                                    "4": "Enfin, la majeure partie de mon travail consistait en la création d’un simulateur permettant la modification de grilles horaires d’une ligne de transport ainsi qu’un second simulateur de modification complète d’un réseau de transport. Cela passait par la création de l’interface de simulation, la gestion des échanges serveur / client et enfin l’affichage du résultat des simulations."
+                                    "1": {
+                                        "1": "Cognidis est une start-up Française qui base son activité autour de l’analyse de données, des sciences cognitives et de l’intelligence artificielle. Elle assure la conception d’outils permettant à des grosses entreprises du secteur du tourisme et du transport de comprendre et prédire le comportement de leurs utilisateurs mais aussi d’accéder à des données pertinentes pour gagner en efficacité."
+                                    },
+                                    "2": {
+                                        "1": "J’ai été chargé de travailler sur l’application principale proposée par Cognidis et de réaliser différentes tâches. J’ai par exemple réalisé une refonte de la page d’accueil et optimisé la gestion de sessions et de connexions sécurisées à l’application."
+                                    },
+                                    "3": {
+                                        "1": "J’ai développé plusieurs outils web et réalisé diverses tâches d’optimisation, de perfectionnement, de finitions ou d’ajout de fonctionnalités sur l’ensemble de l’application."
+                                    },
+                                    "4": {
+                                        "1": "Enfin, la majeure partie de mon travail consistait en la création d’un simulateur permettant la modification de grilles horaires d’une ligne de transport ainsi qu’un second simulateur de modification complète d’un réseau de transport. Cela passait par la création de l’interface de simulation, la gestion des échanges serveur / client et enfin l’affichage du résultat des simulations."
+                                    },
+                                    "5": {
+                                        "1": "Notions principales : NodeJS, MongoDB, Javascript, Express"
+                                    }
                                 },
                                 "main_image": "/assets/img/cognidis_1.jpg",
                                 "images" : {
@@ -190,9 +286,18 @@
                                 "name": "Intranet & Application",
                                 "tools": "Symfony - MySQL - API Google Maps - Javascript - WordPress",
                                 "desc": {
-                                    "1": "Prescri bouge est une association mettant en relation des professionnels de santé et des associations avec des personnes atteintes de différentes pathologies afin de les guider vers une pratique sportive adaptée.",
-                                    "2": "J’ai réalisé, en équipe, une application intranet à l’aide du framework Symfony qui permet à l’association de pouvoir référencer et suivre leurs bénéficiaires en interne, mais aussi les professionnels de santé et les activités qui leurs sont proposées",
-                                    "3": "J’ai aussi réalisé de mon côté une application web via l’API Google Maps qui permet aux utilisateurs du site internet de trouver toutes les activités proposées selon leur pathologie (système de tri) qui sont référencées dans la base de donnée de Prescri’Bouge. Cette carte est accessible sous l’onglet 'Annuaire des activités'."
+                                    "1": {
+                                        "1": "Prescri bouge est une association mettant en relation des professionnels de santé et des associations avec des personnes atteintes de différentes pathologies afin de les guider vers une pratique sportive adaptée."
+                                    },
+                                    "2": {
+                                        "1": "J’ai réalisé, en équipe, une application intranet à l’aide du framework Symfony qui permet à l’association de pouvoir référencer et suivre leurs bénéficiaires en interne, mais aussi les professionnels de santé et les activités qui leurs sont proposées"
+                                    },
+                                    "3": {
+                                        "1": "J’ai aussi réalisé de mon côté une application web via l’API Google Maps qui permet aux utilisateurs du site internet de trouver toutes les activités proposées selon leur pathologie (système de tri) qui sont référencées dans la base de donnée de Prescri’Bouge. Cette carte est accessible sous l’onglet 'Annuaire des activités'."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : Symfony, MySQL, Google maps API, Javascript, Wordpress"
+                                    }
                                 },
                                 "main_image": "/assets/img/prescribouge_1.jpg",
                                 "images" : {
@@ -204,9 +309,18 @@
                                 "name": "Portfolio personnel",
                                 "tools": "React - NodeJS - Express - MongoDB",
                                 "desc": {
-                                    "1": "Vous êtes dessus !",
-                                    "2": "Il s'agit de l'un des projets les plus instructifs et les plus 'chronophages' sur lequel j'ai pu travailler. J'ai choisi de réaliser un site à mon image en me donnant le défi de tout développer, de A à Z, entièrement par moi-même.",
-                                    "3": "J'ai utilisé les technologies React et Node pour leur utilité mais aussi pour me perfectionner. J'ai accordé un soin tout particulier à l'UI / UX via une phase de maquettage, de prototypage et de bêta test complète avant de développer l'ensemble du site."
+                                    "1": {
+                                        "1": "Vous êtes dessus !"
+                                    },
+                                    "2": {
+                                        "1": "Il s'agit de l'un des projets les plus instructifs et les plus 'chronophages' sur lequel j'ai pu travailler. J'ai choisi de réaliser un site à mon image en me donnant le défi de tout développer, de A à Z, entièrement par moi-même."
+                                    },
+                                    "3": {
+                                        "1": "J'ai utilisé les technologies React et Node pour leur utilité mais aussi pour me perfectionner. J'ai accordé un soin tout particulier à l'UI / UX via une phase de maquettage, de prototypage et de bêta test complète avant de développer l'ensemble du site."
+                                    },
+                                    "4": {
+                                        "1": "Notions principales : NodeJS, React, MongoDB, Javascript, Infrastructure, Kubernetes, GitOps"
+                                    }
                                 },
                                 "main_image": "/assets/img/portfolio_1.jpg",
                                 "git": "https://github.com/samaillt/personnal_portfolio",
@@ -219,8 +333,15 @@
                                 "name": "Portsmouth University - Web apps",
                                 "tools": "SCSS - PHP - WordPress - 360°",
                                 "desc": {
-                                    "1": "Il s’agit de deux applications web que j’ai développées au cours de mon stage au sein de l'université de Portsmouth au Royaume-Uni. Cela m'a permis de développer en profondeur ma connaissance du CMS Wordpress mais aussi d’apprendre de nouvelles technologies comme SASS ou l'intégration de la 360° en web.",
-                                    "2": "J’ai designé et développé les applications et effectué la création des back-offices et la maintenance de ces dernières."
+                                    "1": {
+                                        "1": "Il s’agit de deux applications web que j’ai développées au cours de mon stage au sein de l'université de Portsmouth au Royaume-Uni. Cela m'a permis de développer en profondeur ma connaissance du CMS Wordpress mais aussi d’apprendre de nouvelles technologies comme SASS ou l'intégration de la 360° en web."
+                                    },
+                                    "2": {
+                                        "1": "J’ai designé et développé les applications et effectué la création des back-offices et la maintenance de ces dernières."
+                                    },
+                                    "3": {
+                                        "1": "Notions principales : Worpdress, PHP, SCSS, 360°"
+                                    }
                                 },
                                 "main_image": "/assets/img/portsmouth_1.jpg",
                                 "images" : {
@@ -236,7 +357,9 @@
                                 "name": "Colt Seavers - Title sequence",
                                 "tools": "Modélisation / Animation / Texturing 3D - Blender",
                                 "desc": {
-                                    "1": "Il s'agit de la séquence d'introduction d'un film fictionnel : Colt Seavers."
+                                    "1": {
+                                        "1": "Il s'agit de la séquence d'introduction d'un film fictionnel : Colt Seavers."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/j6831Hu-714"
@@ -249,8 +372,12 @@
                                 "name": "Danse numérique - Workshop UQAT",
                                 "tools": "Unity - Motion capture - 3D - Animation",
                                 "desc": {
-                                    "1": "Il s'agit d'un projet sur deux jours réalisé lors de mon échange universitaire au Canada. L'objectif était d'allier art numérique et art vivant.",
-                                    "2": "Ce projet m'a permis de solidifier mes compétences Unity et de travailler en équipe avec des personnes d'horizons différents."
+                                    "1": {
+                                        "1": "Il s'agit d'un projet sur deux jours réalisé lors de mon échange universitaire au Canada. L'objectif était d'allier art numérique et art vivant."
+                                    },
+                                    "2": {
+                                        "1": "Ce projet m'a permis de solidifier mes compétences Unity et de travailler en équipe avec des personnes d'horizons différents."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/Fpaj7hoXCv0",
@@ -265,8 +392,12 @@
                                 "name": "Domingo - Vidéo",
                                 "tools": "Effets spéciaux - Montage et étalonnage vidéo - Mixage audio",
                                 "desc": {
-                                    "1": "Réalisation de montages vidéos pour le streamer Français DominGo (plus de 600 000 abonnés – 200 000 vues par vidéo en moyenne).",
-                                    "2": "Vous trouverez quelques exemples en suivant le lien ci-dessus."
+                                    "1": {
+                                        "1": "Réalisation de montages vidéos pour le streamer Français DominGo (plus de 600 000 abonnés – 200 000 vues par vidéo en moyenne)."
+                                    },
+                                    "2": {
+                                        "1": "Vous trouverez quelques exemples en suivant le lien ci-dessus."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/8ozHDcLnNWk"
@@ -280,7 +411,9 @@
                                 "name": "Monuments - 3D",
                                 "tools": "Modélisation 3D - Blender - Animation",
                                 "desc": {
-                                    "1": "Projet 3D de modélisation, représentation et animation des plus célèbres monuments au monde par époque."
+                                    "1": {
+                                        "1": "Projet 3D de modélisation, représentation et animation des plus célèbres monuments au monde par époque."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/Lj6I958FNbw"
@@ -304,7 +437,7 @@
                     "1": "Hello ! Je suis un programmeur Online de $AGE ans chez Ubisoft Paris et passionné par l'infrastructure, le développement logiciel (IA / Traitement d'image), web et jeu vidéo (Gameplay & 3D).",
                     "2": "N’hésitez pas à me contacter pour toute information !"
                 },
-                "address": "Entre la France & le Québec",
+                "address": "France",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
                 "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"
@@ -326,26 +459,80 @@
                 "title": "Tom Samaille",
                 "subtitle": "Creative engineer",
                 "click_info": "Click anywhere for lightspeed",
-                "project_button": "My projects"
+                "project_button": "Some projects"
             },
             "projects": {
                 "meta_description": "Tom Samaille's website - Projects and references.",
                 "meta_keywords": "portfolio, creative, engineer, programmer, developer, video game, developpment, projects, web development, javascript, game, software, references, 3d",
                 "back" : "Back",
                 "name": "Projects",
-                "page_title_outline": "My ",
+                "page_title_outline": "Some ",
                 "page_title_strong": "projects",
                 "categories": {
                     "games": {
                         "name": "Video game",
                         "elements": {
                             "1": {
+                                "name": "Bump! Superbrawl",
+                                "tools": "C# - Online programming - Infrastructure & DevOps",
+                                "desc": {
+                                    "1": {
+                                        "1": "This is the most ambitious project I have had the opportunity to work on: a turn-based strategy game in 1v1 where anticipation and meticulous preparation are the keys to gaining the upper hand over your opponent."
+                                    },
+                                    "2": {
+                                        "1": "Maintenance of server infrastructure through Infrastructure As Code principles and our continuous integration and deployment tools:",
+                                        "2": "- 50+ team members",
+                                        "3": "- 100+ countries",
+                                        "4": "- 4.8/5 iOS, 9/10 Steam, 4.5/5 Google Play Store"
+                                    },
+                                    "3": {
+                                        "1": " Design, development, and maintenance of online services based on a microservices architecture, with a focus on future reuse:",
+                                        "2": "- Social Service (friends relationships & friendly matches)",
+                                        "3": "- Store Service (purchase catalog, integration of third-party services Google Play Store & iOS, transaction management, bookkeeping)",
+                                        "4": "- Planning Framework",
+                                        "5": "- Ranking Service (management of players' competitive progression, seasonal ranking, rewards)",
+                                        "6": "- Live-Events Service (modular framework for different types of events: community, competitive, and progression)",
+                                        "7": "- Cheat Service (testing tools for development, not available in production)",
+                                        "8": "- Matchmaking Service (matching players according to design rules & match creation)",
+                                        "9": "- Redis database migration frameworks"
+                                    },
+                                    "4": { 
+                                        "1": "Please find informations about the game (and game itself : Android, iOS & PC) by clicking on the link above (Desktop icon)."
+                                    },
+                                    "5": {
+                                        "1": "Key Technologies : C#, Kubernetes, Terraform, AWS, CI/CD (Gitlab & TeamCity), Unit & integration tests (MSTests, xUnit & nUnit), Monitoring (Grafana & Sentry), Database administration (MongoDB & Redis), Clean code, API REST, Client <-> server, JWT, Multi-threading, Async & reactive programming, Jira, Windows VS"
+                                    }
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/pgXSZHYJWpA?si=3Ho6cBUCXNeVd3St"
+                                },
+                                "website" : "https://www.bump-mob.ubi.com/game/referral/4-6VP5DVRQ",
+                                "images" : {
+                                    "1" : "/assets/img/bump_0.jpg",
+                                    "2" : "/assets/img/bump_1.jpg",
+                                    "3" : "/assets/img/bump_2.jpg",
+                                    "4" : "/assets/img/bump_3.jpg"
+                                }
+                            },
+                            "2": {
                                 "name": "Wild Arena Survivors",
                                 "tools": "C# - Unity - GPP - 3C - ECS - Game feel - Debug",
                                 "desc": {
-                                    "1": "Official description : Join the wildest battle royale! Choose your Survivor to fight in fast-paced battles with 40 players on one map! Explore an exotic island for resources to make you stronger, defend yourself against wild animals and fight other players to win!",
-                                    "2": "My missions were mostly about Game Feel (Core experience) and meta : Development / improvement / debug or refacto of Gameplay features (according to the evolutive design pattern / architecture during the project) .",
-                                    "3": "Please find informations about the game (and game itself : Android & iOS) by clicking on the link above (Desktop icon)."
+                                    "1": {
+                                        "1": "Official description : Join the wildest battle royale! Choose your Survivor to fight in fast-paced battles with 40 players on one map! Explore an exotic island for resources to make you stronger, defend yourself against wild animals and fight other players to win!"
+                                    },
+                                    "2": {
+                                        "1": "My missions were mostly about Game Feel (Core experience) and meta :",
+                                        "2": "- Develop and/or adapt features, tools and controls",
+                                        "3": "- Integrate graphic and sound assets",
+                                        "4": "- Analyze, estimate and make strong recommendations concerning all the features to be integrated",
+                                        "5": "- Ensure a technological watch on advances related to mobile development (in particular gameplay) and develop knowledge of the market",
+                                        "6": "- Actively participate in the debugging of the project at the different stages",
+                                        "7": "- Develop gameplay features and design innovative prototypes to ensure the good development of the game or its additional content"
+                                    },
+                                    "3": {
+                                        "1": "Key Technologies : C#, ECS, Unity, Jira, Windows VS, CI/CD (Gitlab & Jenkins), Integration & unit tests (MSTests), Database administration (MongoDB), Clean code, API REST, Client <-> server, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/54qbXJP7L5s"
@@ -359,13 +546,22 @@
                                     "5" : "/assets/img/was_4.png"
                                 }
                             },
-                            "2": {
+                            "3": {
                                 "name": "La forêt enchantée",
                                 "tools": "C# - Unity - GPP - GD - 3C - Game feel - IA - Debug - Scrum master - Management",
                                 "desc": {
-                                    "1": "As Scrum master, I had to ensure the proper life cycle of every single task from each sprints (from attribution to estimation, development, review & debug). Within the team, I am also Lead Tech & Gameplay Programmer. Basically I'm in charge of the integration of every game elements and also the implementation of every Gameplay feature (Camera, Controls, Fight, Procedural generation, Animations, Beast IA, etc.). Like a cook, I put together all the ingredients to offer the best possible meal !",
-                                    "2": "La Forêt Enchantée is an hybrid RBG between Survival & Puzzle game. You will be the Guardian apprentice, who are the protectors of you village against the mysterious threat living in the forest. Guardians disapeared while investigating these mysteries. You now have the responsability to fulfill their past purpose and resolve the forest enigma.",
-                                    "3": "Please find informations about the game (and game itself : windows & MacOS) by clicking on the link above (Desktop icon)."
+                                    "1": {
+                                        "1": "La Forêt Enchantée is an hybrid RBG between Survival & Puzzle game. You will be the Guardian apprentice, who are the protectors of you village against the mysterious threat living in the forest. Guardians disapeared while investigating these mysteries. You now have the responsability to fulfill their past purpose and resolve the forest enigma."
+                                    },
+                                    "2": {
+                                        "1": "As Scrum master, I had to ensure the proper life cycle of every single task from each sprints (from attribution to estimation, development, review & debug). Within the team, I am also Lead Tech & Gameplay Programmer. Basically I'm in charge of the integration of every game elements and also the implementation of every Gameplay feature (Camera, Controls, Fight, Procedural generation, Animations, Beast IA, etc.). Like a cook, I put together all the ingredients to offer the best possible meal !"
+                                    },
+                                    "3": {
+                                        "1": "Please find informations about the game (and game itself : windows & MacOS) by clicking on the link above (Desktop icon)."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : C#, Management, 3C, Unity, Windows VS, CI/CD (Gitlab), Integration & unit tests (MSTests), Clean code, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/wjJrLerX3YM"
@@ -376,32 +572,23 @@
                                     "2" : "/assets/img/foret_enchantee_2.jpg"
                                 }
                             },
-                            "3": {
-                                "name": "RPG open world prototype",
-                                "tools": "C# - Unity",
-                                "desc": {
-                                    "1": "Design and programming of a video game. This project still in its production phase and will result after a two years into a Role Play Game Open World video game.",
-                                    "2": "Throughout the whole project, I participate in the ideation, design and, of course, production phases. I developed for example mouvements and camera management, combat system many Gameplay features that allow the player to experiment a fluid, dynamic and unique experience.",
-                                    "3": "You can download the game prototype (windows only) by clicking on the link above (Desktop icon)."
-                                },
-                                "videos": {
-                                    "1" : "https://www.youtube.com/embed/6QLEbIydIwY"
-                                },
-                                "website" : "https://drive.google.com/open?id=13OxLrKXPluHN26gr1tB_xvKJC6jDHNBC",
-                                "images" : {
-                                    "1" : "/assets/img/capture_prototype_1.jpg",
-                                    "2" : "/assets/img/proto_screen_1.jpg",
-                                    "3" : "/assets/img/proto_screen_2.jpg"
-                                }
-                            },
                             "4": {
                                 
                                 "name": "Tron'ple run - 3d Game",
                                 "tools": "C++ - OpenGL",
                                 "desc": {
-                                    "1": "It's inspired by the famous game Temple Run as well as the Tron universe and developed with C++ and Opengl3. It was interesting to use the mathematical knowledge related to 3D that I acquired during my trainings allowing the production of this game.",
-                                    "2": "It helped me understand the whole development of a video game, from the graphical part with 3D programming to the user experience with Gameplay programming.",
-                                    "3": "It was a particularly complete and interesting project that allowed me to develop strong C++ skills. I also developed my engine programming skills under openGL, with the rigour and the need of optimization that it implies."
+                                    "1": {
+                                        "1": "It's inspired by the famous game Temple Run as well as the Tron universe and developed with C++ and Opengl3. It was interesting to use the mathematical knowledge related to 3D that I acquired during my trainings allowing the production of this game."
+                                    },
+                                    "2": {
+                                        "1": "It helped me understand the whole development of a video game, from the graphical part with 3D programming to the user experience with Gameplay programming."
+                                    },
+                                    "3": {
+                                        "1": "It was a particularly complete and interesting project that allowed me to develop strong C++ skills. I also developed my engine programming skills under openGL, with the rigour and the need of optimization that it implies."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : C++, OpenGL, Windows VS code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/CPb91tXP71g"
@@ -416,8 +603,15 @@
                                 "name": "Flapimac - 2D Game",
                                 "tools": "C - OpenGL",
                                 "desc": {
-                                    "1": "It's a video game developed with C and OpenGL inspired by space shooters and the famous game 'flappy birds'.",
-                                    "2": "This project allowed me to develop my C programming, Gameplay programming and 2D programming skills."
+                                    "1": {
+                                        "1": "It's a video game developed with C and OpenGL inspired by space shooters and the famous game 'flappy birds'."
+                                    },
+                                    "2": {
+                                        "1": "This project allowed me to develop my C programming, Gameplay programming and 2D programming skills."
+                                    },
+                                    "3": {
+                                        "1": "Key Technologies : C, OpenGL, Windows VS code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/o4CoEI3UxVM"
@@ -431,9 +625,18 @@
                                 "name": "Gameplay experimentations",
                                 "tools": "C# - Unity",
                                 "desc": {
-                                    "1": "Design and programming of Gameplay features of a video game. We wanted to develop several experiments during the creation of a Role Play Game in Open World in which the dynamism and retro-active aspect of the players choices on his environment were the most important aspects.",
-                                    "2": "For example, I developed an experiment in which several elements of the environment (the trees of a forest) ignites in contact with the player (on fire) and provoke a chain reaction",
-                                    "3": "These experiments were often technical challenges. This allowed me to develop my Gameplay programming, C# and Unity skills."
+                                    "1": {
+                                        "1": "Design and programming of Gameplay features of a video game. We wanted to develop several experiments during the creation of a Role Play Game in Open World in which the dynamism and retro-active aspect of the players choices on his environment were the most important aspects."
+                                    },
+                                    "2": {
+                                        "1": "For example, I developed an experiment in which several elements of the environment (the trees of a forest) ignites in contact with the player (on fire) and provoke a chain reaction"
+                                    },
+                                    "3": {
+                                        "1": "These experiments were often technical challenges. This allowed me to develop my Gameplay programming, C# and Unity skills."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : C#, Management, 3C, Unity, Windows VS, Clean code, Multi-threading"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/RhqYrUmzur0"
@@ -447,8 +650,15 @@
                                 "name": "Tower defense - Board game",
                                 "tools": "C",
                                 "desc": {
-                                    "1": "It's a board 'tower defense' like game.",
-                                    "2": "This project allowed me to deeply develop my programming and c skills."
+                                    "1": {
+                                        "1": "It's a board 'tower defense' like game."
+                                    },
+                                    "2": {
+                                        "1": "This project allowed me to deeply develop my programming and c skills."
+                                    },
+                                    "3": {
+                                        "1": "Key Technologies : C, Windows VS Code, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/H6Bl_XKkYX8"
@@ -467,9 +677,18 @@
                                 "name": "IRC 3D - IRCGN software",
                                 "tools": "Python - OpenGL - IA - 3D",
                                 "desc": {
-                                    "1": "It is a software that allows image comparison between a video-surveillance camera image and a 3D model. The face and its orientation are automatically detected in the image and this same orientation is applied to the 3D model to allow the expert to compare both of them.",
-                                    "2": "I developed this software with Nicolas Sénecal as part of a project with the Institute of Criminal Research of the Nationale Gendarmerie (IRCGN).",
-                                    "3": "This project allowed me to develop my Python programming skills, to develop a particular rigour (as part of a project in collaboration with a military institution), but also to improve my knowledge in artificial intelligence (AI) and related mathematical tools as well as image processing."
+                                    "1": {
+                                        "1": "It is a software that allows image comparison between a video-surveillance camera image and a 3D model. The face and its orientation are automatically detected in the image and this same orientation is applied to the 3D model to allow the expert to compare both of them."
+                                    },
+                                    "2": {
+                                        "1": "I developed this software with Nicolas Sénecal as part of a project with the Institute of Criminal Research of the Nationale Gendarmerie (IRCGN)."
+                                    },
+                                    "3": {
+                                        "1": "This project allowed me to develop my Python programming skills, to develop a particular rigour (as part of a project in collaboration with a military institution), but also to improve my knowledge in artificial intelligence (AI) and related mathematical tools as well as image processing."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : Python, OpenGL, IA, 3D, Management, PyCharm, Clean code"
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/cefoxSRm_To"
@@ -489,9 +708,18 @@
                                 "name": "Cognidis - Web application",
                                 "tools": "NodeJS - Express - MongoDB",
                                 "desc": {
-                                    "1": "Cognidis is a French start-up which bases its activity around data analysis, cognitive sciences and artificial intelligence. It designs tools that allow large companies of tourism and transport branch to understand and predict the behavior of their users, but also to access relevant data to improve their efficiency.",
-                                    "2": "I worked on the main application offered by Cognidis. I redesigned the landing page and optimized the management of user sessions and implemented secured connections to the application. I also developed several web tools, performed various optimization tasks and added new features across the entire app.",
-                                    "3": "But the most important part of my work was the creation of a simulator allowing the modification of timetables of a public transportation line, but also the cration of a second simulator allowing every possible modification on an entire transport network. This involved the creation of the simulation interface, the management of server / client exchanges and finally the display of simulation results."
+                                    "1": {
+                                        "1": "Cognidis is a French start-up which bases its activity around data analysis, cognitive sciences and artificial intelligence. It designs tools that allow large companies of tourism and transport branch to understand and predict the behavior of their users, but also to access relevant data to improve their efficiency."
+                                    },
+                                    "2": {
+                                        "1": "I worked on the main application offered by Cognidis. I redesigned the landing page and optimized the management of user sessions and implemented secured connections to the application. I also developed several web tools, performed various optimization tasks and added new features across the entire app."
+                                    },
+                                    "3": {
+                                        "1": "But the most important part of my work was the creation of a simulator allowing the modification of timetables of a public transportation line, but also the cration of a second simulator allowing every possible modification on an entire transport network. This involved the creation of the simulation interface, the management of server / client exchanges and finally the display of simulation results."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : NodeJS, MongoDB, Javascript, Express"
+                                    }
                                 },
                                 "main_image": "/assets/img/cognidis_1.jpg",
                                 "images" : {
@@ -504,9 +732,18 @@
                                 "name": "Intranet & Application",
                                 "tools": "Symfony - MySQL - Google Maps API - Javascript - WordPress",
                                 "desc": {
-                                    "1": "'Prescri'bouge' is an association linking health professionals with people suffering from different pathologies in order to guide them towards an adapted sports practice.",
-                                    "2": "I developed with my team an intranet application using Symfony framework which allows Prescri'bouge association to reference and follow their beneficiaries internally, but also the activities offered to them and health professionals.",
-                                    "3": "I also developed a web application with Google Maps API which allows website users to find every single activity offered according to their pathology (sorting system) which are referenced in the Prescri'Bouge associations database. Find this map under 'Annuaire des activités' tab."
+                                    "1": {
+                                        "1": "'Prescri'bouge' is an association linking health professionals with people suffering from different pathologies in order to guide them towards an adapted sports practice."
+                                    },
+                                    "2": {
+                                        "1": "I developed with my team an intranet application using Symfony framework which allows Prescri'bouge association to reference and follow their beneficiaries internally, but also the activities offered to them and health professionals."
+                                    },
+                                    "3": {
+                                        "1": "I also developed a web application with Google Maps API which allows website users to find every single activity offered according to their pathology (sorting system) which are referenced in the Prescri'Bouge associations database. Find this map under 'Annuaire des activités' tab."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : Symfony, MySQL, Google maps API, Javascript, Wordpress"
+                                    }
                                 },
                                 "main_image": "/assets/img/prescribouge_1.jpg",
                                 "images" : {
@@ -518,9 +755,18 @@
                                 "name": "Personnal portfolio",
                                 "tools": "React - NodeJS - Express - MongoDB",
                                 "desc": {
-                                    "1": "You're watching it!",
-                                    "2": "it's one of the most instructive and time consuming projects I have ever worked on. I gave myself the challenge of developing every single feature from scratch entirely by myself.",
-                                    "3": "I used React and Node for their usefulness but also to improve myself whith these technologies. I paid a special attention to UI / UX as I prototyped and tested everything before developing the whole website."
+                                    "1": {
+                                        "1": "You're watching it!"
+                                    },
+                                    "2": {
+                                        "1": "it's one of the most instructive and time consuming projects I have ever worked on. I gave myself the challenge of developing every single feature from scratch entirely by myself."
+                                    },
+                                    "3": {
+                                        "1": "I used React and Node for their usefulness but also to improve myself whith these technologies. I paid a special attention to UI / UX as I prototyped and tested everything before developing the whole website."
+                                    },
+                                    "4": {
+                                        "1": "Key Technologies : NodeJS, React, MongoDB, Javascript, Infrastructure, Kubernetes, GitOps"
+                                    }
                                 },
                                 "main_image": "/assets/img/portfolio_1.jpg",
                                 "git": "https://github.com/samaillt/personnal_portfolio",
@@ -533,8 +779,15 @@
                                 "name": "Portsmouth University - Web apps",
                                 "tools": "SCSS - PHP - WordPress - 360°",
                                 "desc": {
-                                    "1": "I developed these two web applications during my internship in Portsmouth University in the United Kingdom. This allowed me to deeply developped my knowledge of Wordpress CMS but also to learn new technologies such as SASS or 360° integration on a website.",
-                                    "2": "I designed and developed both applications and created back-offices as well as I handled their maintenance."
+                                    "1": {
+                                        "1": "I developed these two web applications during my internship in Portsmouth University in the United Kingdom. This allowed me to deeply developped my knowledge of Wordpress CMS but also to learn new technologies such as SASS or 360° integration on a website."
+                                    },
+                                    "2": {
+                                        "1": "I designed and developed both applications and created back-offices as well as I handled their maintenance."
+                                    },
+                                    "3": {
+                                        "1": "Key Technologies : Worpdress, PHP, SCSS, 360°"
+                                    }
                                 },
                                 "main_image": "/assets/img/portsmouth_1.jpg",
                                 "images" : {
@@ -550,7 +803,9 @@
                                 "name": "Colt Seavers - Title sequence",
                                 "tools": "3D Modeling / Animation / Texturing - Blender",
                                 "desc": {
-                                    "1": "It's a 3D home-made title sequence of a fictionnal movie : Colt Seavers."
+                                    "1": {
+                                        "1": "It's a 3D home-made title sequence of a fictionnal movie : Colt Seavers."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/j6831Hu-714"
@@ -563,8 +818,12 @@
                                 "name": "Digital danse - UQAT Workshop",
                                 "tools": "Unity - Motion capture - 3D - Animation",
                                 "desc": {
-                                    "1": "This is a two-day project that was made during my university exchange in Canada. The goal was to combine digital art and living art.",
-                                    "2": "This project allowed me to improve my Unity skills and work as a team with people from different backgrounds."
+                                    "1": {
+                                        "1": "This is a two-day project that was made during my university exchange in Canada. The goal was to combine digital art and living art."
+                                    },
+                                    "2": {
+                                        "1": "This project allowed me to improve my Unity skills and work as a team with people from different backgrounds."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/Fpaj7hoXCv0",
@@ -579,8 +838,12 @@
                                 "name": "Domingo - Video",
                                 "tools": "VFX - Video editing - Audio editing",
                                 "desc": {
-                                    "1": "Video editing for the french streamer and youtuber DominGo (more than 600 000 subscribers – 200 000 average views on each video).",
-                                    "2": "You will find some examples by clicking on the link above."
+                                    "1": {
+                                        "1": "Video editing for the french streamer and youtuber DominGo (more than 600 000 subscribers – 200 000 average views on each video)."
+                                    },
+                                    "2": {
+                                        "1": "You will find some examples by clicking on the link above."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/8ozHDcLnNWk"
@@ -594,7 +857,9 @@
                                 "name": "Monuments - 3D",
                                 "tools": "3D - Blender - Animation",
                                 "desc": {
-                                    "1": "3D modeling and animation project about the most famous monuments around the world."
+                                    "1": {
+                                        "1": "3D modeling and animation project about the most famous monuments around the world."
+                                    }
                                 },
                                 "videos": {
                                     "1" : "https://www.youtube.com/embed/Lj6I958FNbw"
@@ -618,7 +883,7 @@
                     "1": "Hi ! I'm a French $AGE years old Online Programmer at Ubisoft Paris. I'm a huge fan of game development (3D engine & Gameplay), infrastructure and also software & web development.",
                     "2": "Let's get in touch !"
                 },
-                "address": "Between France & Québec",
+                "address": "France",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
                 "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"

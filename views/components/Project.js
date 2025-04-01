@@ -91,12 +91,17 @@ class Project extends React.Component {
     }
 
     if (project.desc != undefined) {
-      for (const key of Object.keys(project.desc)) {
-        if (Object.keys(project.desc).indexOf(key) != Object.keys(project.desc).length - 1) {
-			texts.push(<React.Fragment key={"desc"+key}>{project.desc[key]}<br/><br/></React.Fragment>);
-        } else {
-			texts.push(<React.Fragment key={"desc"+key}>{project.desc[key]}</React.Fragment>);
-        }
+      for (const paragraphIndex of Object.keys(project.desc)) {
+		for (const lineIndex of Object.keys(project.desc[paragraphIndex])) {
+			if (Object.keys(project.desc[paragraphIndex]).indexOf(lineIndex) != Object.keys(project.desc[paragraphIndex]).length - 1) {
+				texts.push(<React.Fragment key={"desc"+paragraphIndex+lineIndex}>{project.desc[paragraphIndex][lineIndex]}<br/></React.Fragment>);
+			} else {
+				texts.push(<React.Fragment key={"desc"+paragraphIndex+lineIndex}>{project.desc[paragraphIndex][lineIndex]}</React.Fragment>);
+			}
+		}
+		if (Object.keys(project.desc).indexOf(paragraphIndex) != Object.keys(project.desc).length - 1) {
+			texts.push(<React.Fragment key={"desc"+paragraphIndex}><br/><br/></React.Fragment>);
+		}
       }
     }
 
