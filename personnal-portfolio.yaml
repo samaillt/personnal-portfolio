@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personnal-portfolio
+  namespace: perso
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: personnal-portfolio
+  template:
+    metadata:
+      labels:
+        app: personnal-portfolio
+    spec:
+      containers:
+      - name: personnal-portfolio
+        image: tsamaille/personnal-portfolio:1.0.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8100
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
+          requests:
+            cpu: 10m
+            memory: 10Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: personnal-portfolio-service
+  namespace: perso
+spec:
+  selector:
+    app: personnal-portfolio
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8100
+  type: LoadBalancer
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: personnal-portfolio-ingress
+  namespace: perso
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  tls:
+  - hosts:
+    - portfolio.samaille.fr
+    secretName: personnal-portfolio-tls
+  rules:
+  - host: portfolio.samaille.fr
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: personnal-portfolio-service
+              port:
+                number: 8100
