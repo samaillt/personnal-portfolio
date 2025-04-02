@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:23
+FROM --platform=amd64 node:23
 
 # Initialize working directory with proper rights
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
