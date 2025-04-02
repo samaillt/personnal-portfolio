@@ -10,14 +10,11 @@ WORKDIR /home/node/app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Switch to node user for further operations
-USER node
-
 # Install dependencies
 RUN npm install
 
 # Copy the rest of the application code
-COPY --chown=node:node . .
+COPY . .
 
 # Expose the port your app runs on
 EXPOSE 8080
