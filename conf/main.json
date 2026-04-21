@@ -25,6 +25,50 @@
                         "name": "Jeu vidéo",
                         "elements": {
                             "1": {
+                                "name": "Might & Magic Fates",
+                                "tools": "C# - Online programming - Infrastructure & DevOps",
+                                "desc": {
+                                    "1": {
+                                        "1": "C’est une plongée dans un univers où chaque décision compte. Plus qu’un simple TCG, c’est un terrain d’affrontements tactiques où créativité, anticipation et audace font toute la différence."
+                                    },
+                                    "2": {
+                                        "1": "Conception, déploiement et maintenance de l’infrastructure serveur multi-region au travers du principe d’Infrastructure As Code et de nos outils d’intégration et de déploiements continus :",
+                                        "2": "- Infrastructure multi-région live (Setup des infrastructure EU, AP et US - VPC Peering - Routing géo-localisé - DNS & Ingress management - Mise en place du Global Accelerator AWS - Certification TLS multi-region - Documentation)",
+                                        "3": "- Gestion de déploiement de versions live Blue/Green avec monitoring, correctifs et scaling associés"
+                                    },
+                                    "3": {
+                                        "1": "Conception, développement et maintenance de services en ligne basés sur une architecture micro-services, avec un objectif de réutilisation future :",
+                                        "2": "- Service de LiveOps (récupération de données joueurs, compensation, création d'offres pour la boutique du jeu, création d'évènements etc.)",
+                                        "3": "- Service de social (relations d’amis, matchs amicaux)",
+                                        "4": "- Service de boutique (catalogue d’achat, intégration des services tiers Google Play Store & iOS, gestion des transactions, tenue d’un livre des comptes)",
+                                        "5": "- Service de classement (gestion de la progression compétitive des joueurs, classement saisonnier, récompenses)",
+                                        "6": "- Service de matchmaking (mise en relation des joueurs selon les règles de design et création de matchs)"
+                                    },
+                                    "4": {
+                                        "1": "Projet de grande ampleur :",
+                                        "2": "- 50+ membres d’équipe",
+                                        "3": "- 100+ pays",
+                                        "4": "- 4,7/5 iOS, 4,1/5 Google Play Store, 6/10 Steam"
+                                    },
+                                    "5": { 
+                                        "1": "Vous trouverez des informations sur le jeu (et le jeu lui-même : Android, iOS & PC) en cliquant sur le lien ci-dessus (Icône de PC)."
+                                    },
+                                    "6": {
+                                        "1": "Notions principales : C#, Kubernetes, Terraform, AWS, CI/CD (Gitlab & TeamCity), Tests d’intégration et unitaires (MSTests, xUnit & nUnit), Monitoring (Grafana & Sentry), Administration de base de données (MongoDB & Redis), Clean code, API REST, Client <-> serveur, JWT, Multi-threading, Programmation asynchrone et réactive, Jira, Windows VS"
+                                    }
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/2us1fp_RLQQ?si=MGXiQHbIKr05Chxq"
+                                },
+                                "website" : "https://www.mightandmagicfates.com",
+                                "images" : {
+                                    "1" : "/assets/img/fates_0.jpg",
+                                    "2" : "/assets/img/fates_1.jpg",
+                                    "3" : "/assets/img/fates_2.jpg",
+                                    "4" : "/assets/img/fates_3.jpg"
+                                }
+                            },
+                            "2": {
                                 "name": "Bump! Superbrawl",
                                 "tools": "C# - Online programming - Infrastructure & DevOps",
                                 "desc": {
@@ -66,7 +110,7 @@
                                     "4" : "/assets/img/bump_3.jpg"
                                 }
                             },
-                            "2": {
+                            "3": {
                                 "name": "Wild Arena Survivors",
                                 "tools": "C# - Gameplay programming - Unity - 3C - ECS - Game feel - Debug",
                                 "desc": {
@@ -97,7 +141,7 @@
                                     "5" : "/assets/img/was_4.png"
                                 }
                             },
-                            "3": {
+                            "4": {
                                 "name": "La forêt enchantée",
                                 "tools": "C# - Gameplay programming - Unity - 3C - Game feel - IA - Debug - Management",
                                 "desc": {
@@ -123,7 +167,7 @@
                                     "2" : "/assets/img/foret_enchantee_2.jpg"
                                 }
                             },
-                            "4": {
+                            "5": {
                                 
                                 "name": "Tron'ple run - Jeu 3D",
                                 "tools": "C++ - Engine programming - Gameplay programming - OpenGL",
@@ -149,7 +193,7 @@
                                     "1" : "/assets/img/tronplerun_1.jpg"
                                 }
                             },
-                            "5": {
+                            "6": {
                                 
                                 "name": "Flapimac - Jeu 2D",
                                 "tools": "C - Engine programming - Gameplay programming - OpenGL",
@@ -172,7 +216,7 @@
                                     "1" : "/assets/img/flapimac_1.jpg"
                                 }
                             },
-                            "6": {
+                            "7": {
                                 "name": "Expérimentations de Gameplay",
                                 "tools": "C# - Gameplay programming - Unity",
                                 "desc": {
@@ -197,7 +241,7 @@
                                     "1" : "/assets/img/experimentations_1.jpg"
                                 }
                             },
-                            "7": {
+                            "8": {
                                 "name": "Tower defense - Jeu de plateau",
                                 "tools": "C - Programming",
                                 "desc": {
@@ -473,6 +517,51 @@
                         "name": "Video game",
                         "elements": {
                             "1": {
+                                "name": "Might & Magic Fates",
+                                "tools": "C# - Online programming - Infrastructure & DevOps",
+                                "desc": {
+                                    "1": {
+                                        "1": "Step into a universe where every choice matters — more than just a TCG, Fates is a battlefield of tactical showdowns where creativity, foresight, and bold moves make all the difference."
+                                    },
+                                    "2": {
+                                        "1": "Design, deployment, and maintenance of a multi-region server infrastructure using Infrastructure as Code principles and continuous integration and deployment tools:",
+                                        "2": "- Live multi-region infrastructure (setup of EU, APAC, and US infrastructures, VPC peering, geo-localized routing, - DNS & ingress management, AWS Global Accelerator setup, multi-region TLS certification, documentation)",
+                                        "3": "- Blue/Green live version deployments, including monitoring, hotfixes, and associated scaling"
+                                    },
+                                    "3": {
+                                        "1": "Design, development, and maintenance of online services based on a microservices architecture, with future reusability as a core objective:",
+                                        "2": "- LiveOps service (player data retrieval, compensation, offer creation for the in-game shop, event creation, etc.)",
+                                        "3": "- Social Service (friends relationships & friendly matches)",
+                                        "4": "- Store Service (purchase catalog, integration of third-party services Google Play Store & iOS, transaction management, bookkeeping)",
+                                        "5": "- Ranking Service (management of players' competitive progression, seasonal ranking, rewards)",
+                                        "6": "- Live-Events Service (modular framework for different types of events: community, competitive, and progression)",
+                                        "7": "- Matchmaking Service (matching players according to design rules & match creation)"
+                                    },
+                                    "4": {
+                                        "1": "Large scale project:",
+                                        "2": "- Teams of 50+ members",
+                                        "3": "- Players in 100+ countries",
+                                        "4": "- 4.7/5 iOS, 4.1/5 Google Play Store, 6/10 Steam"
+                                    },
+                                    "5": { 
+                                        "1": "Please find informations about the game (and game itself : Android, iOS & PC) by clicking on the link above (Desktop icon)."
+                                    },
+                                    "6": {
+                                        "1": "Key Technologies : C#, Kubernetes, Terraform, AWS, CI/CD (Gitlab & TeamCity), Unit & integration tests (MSTests, xUnit & nUnit), Monitoring (Grafana & Sentry), Database administration (MongoDB & Redis), Clean code, API REST, Client <-> server, JWT, Multi-threading, Async & reactive programming, Jira, Windows VS"
+                                    }
+                                },
+                                "videos": {
+                                    "1" : "https://www.youtube.com/embed/2us1fp_RLQQ?si=MGXiQHbIKr05Chxq"
+                                },
+                                "website" : "https://www.mightandmagicfates.com",
+                                "images" : {
+                                    "1" : "/assets/img/fates_0.jpg",
+                                    "2" : "/assets/img/fates_1.jpg",
+                                    "3" : "/assets/img/fates_2.jpg",
+                                    "4" : "/assets/img/fates_3.jpg"
+                                }
+                            },
+                            "2": {
                                 "name": "Bump! Superbrawl",
                                 "tools": "C# - Online programming - Infrastructure & DevOps",
                                 "desc": {
@@ -514,7 +603,7 @@
                                     "4" : "/assets/img/bump_3.jpg"
                                 }
                             },
-                            "2": {
+                            "3": {
                                 "name": "Wild Arena Survivors",
                                 "tools": "C# - Unity - GPP - 3C - ECS - Game feel - Debug",
                                 "desc": {
@@ -546,7 +635,7 @@
                                     "5" : "/assets/img/was_4.png"
                                 }
                             },
-                            "3": {
+                            "4": {
                                 "name": "La forêt enchantée",
                                 "tools": "C# - Unity - GPP - GD - 3C - Game feel - IA - Debug - Scrum master - Management",
                                 "desc": {
@@ -572,7 +661,7 @@
                                     "2" : "/assets/img/foret_enchantee_2.jpg"
                                 }
                             },
-                            "4": {
+                            "5": {
                                 
                                 "name": "Tron'ple run - 3d Game",
                                 "tools": "C++ - OpenGL",
@@ -598,7 +687,7 @@
                                     "1" : "/assets/img/tronplerun_1.jpg"
                                 }
                             },
-                            "5": {
+                            "6": {
                                 
                                 "name": "Flapimac - 2D Game",
                                 "tools": "C - OpenGL",
@@ -621,7 +710,7 @@
                                     "1" : "/assets/img/flapimac_1.jpg"
                                 }
                             },
-                            "6": {
+                            "7": {
                                 "name": "Gameplay experimentations",
                                 "tools": "C# - Unity",
                                 "desc": {
@@ -646,7 +735,7 @@
                                     "1" : "/assets/img/experimentations_1.jpg"
                                 }
                             },
-                            "7": {
+                            "8": {
                                 "name": "Tower defense - Board game",
                                 "tools": "C",
                                 "desc": {
