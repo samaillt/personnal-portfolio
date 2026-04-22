@@ -41,7 +41,6 @@ class About extends React.Component {
           }}></div>
           <div id="about_text_container">
             <p id="about_desc" className="text disable_lightspeed">{descContent}</p>
-            <p className="about_info disable_lightspeed">{data.address}</p>
             <p className="about_info disable_lightspeed">{data.phone}</p>
             <p className="about_info disable_lightspeed"><a href={"mailto:"+data.mail}>{data.mail}</a></p>
             <p className="about_info disable_lightspeed"><a href="https://cloud.samaille.fr/apps/appointments/pub/1DDqD2Q3M9BBz17y/form" target="_blank">{data.appointment}</a></p>
