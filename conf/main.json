@@ -484,6 +484,7 @@
                 "address": "France",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
+                "appointment": "Prendre un rendez-vous",
                 "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"
             }
         }
@@ -975,6 +976,7 @@
                 "address": "France",
                 "phone": "+33 6 95 48 43 60",
                 "mail": "tomsamaille@gmail.com",
+                "appointment": "Schedule an appointment",
                 "copyright": "Copyright $YEAR - Tom Samaille - All rights reserved"
             }
         }

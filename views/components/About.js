@@ -44,6 +44,7 @@ class About extends React.Component {
             <p className="about_info disable_lightspeed">{data.address}</p>
             <p className="about_info disable_lightspeed">{data.phone}</p>
             <p className="about_info disable_lightspeed"><a href={"mailto:"+data.mail}>{data.mail}</a></p>
+            <p className="about_info disable_lightspeed"><a href="https://cloud.samaille.fr/apps/appointments/pub/1DDqD2Q3M9BBz17y/form" target="_blank">{data.appointment}</a></p>
             <div id="about_icons">
               <a href="https://github.com/samaillt" target="_blank"><i className="fab fa-github disable_lightspeed"></i></a>        
               <a href="https://www.youtube.com/channel/UCtLCj7g000uBapYeMFK7kHQ/videos" target="_blank"><i className="fab fa-youtube disable_lightspeed"></i></a>
